@@ -1,0 +1,243 @@
+
+
+
+#home{
+  /* border: 3px solid #77C3EC ; */
+  padding:20px;
+    margin:90px;
+    border-radius: 18px;
+    background-color:white;
+    box-shadow:1px 1px 2px black, 0 0 25px black, 0 0 5px black; 
+  }
+
+  
+#rep1{
+  /* border: 3px solid #77C3EC ; */
+  padding:10px;
+    margin:100px;
+    border-radius: 18px;
+    background-color:white;
+    box-shadow:1px 1px 2px black, 0 0 25px black, 0 0 5px black; 
+  }
+
+#menu3 {
+    margin-top: 44px;
+    width: 30%;
+
+
+
+}
+
+ul.menu3 {
+     list-style-type: none;
+     margin: 30px;
+     padding: 50px 0px 100px 0px;
+     overflow: hidden;
+     background-color: #333;
+     border:2px solid white;
+}
+
+
+#menu3 li a   {
+   /* When you have li and a together this will work*/
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+
+/* Change the link color to white on hover 
+When you move the curser to a menu item it will highlighted with pink*/
+#menu3  li a:hover {
+     background-color: #1b7ced;
+}
+
+
+.Htxt
+{
+  /* font-family: "Comic Sans MS", cursive, sans-serif; */
+  padding:20px 20px;
+  color:#1b7ced;
+  /* text-shadow:1px 1px 2px black, 0 0 19px black, 0 0 2px black;  */
+}
+
+#Lc{
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.3);
+    box-shadow:  10px 10px 10px #000000;
+}
+
+#Lccard{
+    width: 100%;
+    display: flex;  
+    justify-content:center;
+    overflow: hidden; 
+    background-color:rgba(0, 0, 0, 0.3);
+    box-shadow:  10px 10px 10px #000000;
+  }
+  
+  .Lcard{
+    display: grid;
+    grid-template-columns: 280px;
+    grid-template-rows: 210px 247px 100px;
+    grid-template-areas: "image" "text" "stats";
+    font-family: roboto;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    margin:25px 15px;
+    padding:4px;
+    
+  }
+  
+  .Lcard-image,
+  .Lcard-image1,
+  .Lcard-image2,
+  .Lcard-image3,
+  .Lcard-image4,
+  .Lcard-image5{
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      background-size: cover;
+  
+  }
+
+.Lcard-image{
+    background-image: url("./Images/privacy.png");
+    
+    
+  }
+  
+  .Lcard-image1{
+    background-image: url("./Images/payslip.jpg");
+     
+  }
+  
+  .Lcard-image2{
+    background-image: url("./Images/sal3.jpg");
+     
+  }
+
+  .Lcard-image3{
+    background-image: url("./Images/sal5.jpg");
+     
+  }
+
+  .Lcard-image4{
+    background-image: url("./Images/ser.jpg");
+     
+  }
+
+  .Lcard-image5{
+    background-image: url("./Images/ss2.jpg");
+     
+  }
+  
+
+  .Lcard-text{
+    grid-area: text;
+    margin:25px;
+  }
+  
+  .Lcard-stats{
+    grid-area: stats;
+  }
+
+
+.Btn5:hover{
+  background-color: #3e8e41;
+}
+.Btn5{
+  padding:7px 10px;
+  font-size: 16px;
+  font-weight: 2px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #1b7ced;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  margin-bottom:30px;
+  margin-top:5px;
+  margin-left:20px;
+  
+}
+.Btn6:hover{
+  background-color: #3e8e41;
+}
+.Btn6{
+  padding:8px 30px;
+  font-size: 16px;
+  font-weight: 2px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color:#1b7ced;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  margin-bottom:30px;
+  margin-top:10px;
+  margin-left:20px;
+  
+}
+.Btn6:active,
+.Btn5:active{
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.SearchPadding{
+  padding:10px 140px;
+  transition:0.4s;
+}
+.SearchPaddng{
+  padding:10px 250px;
+  transition:0.4s;
+}
+.searchForm {
+  float: middle;
+  padding: 6px 20px;
+  margin-top: 15px;
+  background: none;
+  font-size: 17px;
+  border: none;
+  cursor: pointer; 
+  display:flex;
+  
+}
+
+.searchTxt
+{
+  background-color: white;
+  /* border: 2px solid #1b7ced; */
+  border: 2px solid #333;
+  padding: 5.5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  width:400px;
+}
+.searchBT:hover {
+  background-color:#1071e0;
+  cursor: pointer;
+}
+
+.searchBT {
+  background-color:#333;/*#2b2d30; #19191b */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
