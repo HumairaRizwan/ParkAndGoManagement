@@ -3,7 +3,7 @@
 
 By developing this project, we will be developing a park and go system that can be used at any parking lot.
 The project was developed on the following capacities:
-Manage all Employees in the system - Has the right to Add new employees, remove employees, Update employee
+- Manage all Employees in the system - Has the right to Add new employees, remove employees, Update employee
 Details and when needed he should be able to retrieve the information of employees. (Search the needed employee and
 retrieve information about that employee) In addition a separate report will be handled to store the relevant employee
 details. Also, the server role should be able to view his/her profile from the system and should be able to edit his details
